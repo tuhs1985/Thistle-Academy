@@ -66,5 +66,73 @@
       "type": "icon",
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
     }
+  ],
+    "packs": [
+    {
+      "name": "thistle-academy-gm-pack",
+      "label": "Thistle Academy GM Pack",
+      "path": "packs/thistle-academy-gm-pack",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thistle-equipment",
+      "label": "Thistle Equipment",
+      "path": "packs/thistle-equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thistle-equipment-effects",
+      "label": "Thistle Equipment Effects",
+      "path": "packs/thistle-equipment-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thistle-other-items-and-effects",
+      "label": "Thistle Other Items & Effects",
+      "path": "packs/thistle-other-items-and-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thistle-actors",
+      "label": "Thistle Actors",
+      "path": "packs/thistle-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "thistle-scenes",
+      "label": "Thistle Scenes",
+      "path": "packs/thistle-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
   ]
 }
