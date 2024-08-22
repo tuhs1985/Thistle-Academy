@@ -7,6 +7,14 @@
 <!--- replace <your-module-name> with the `name` in your manifest -->
 <!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
 
+# How to update
+1. After completing updates in foundry, upload the new folders and Module.JSON to GITHUB
+2. Update Module.JSON as follows:
+   a. Replace the version line with  "version": "#{VERSION}#",
+   b. Add  below url and before packs add the following
+             "manifest": "#{MANIFEST}#",
+             "download": "#{DOWNLOAD}#",
+3.  If any addition folders were uploaded, update main.yml so that it packages them.
 
 # How to use this Template to create a versioned Release
 
