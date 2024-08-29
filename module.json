@@ -41,6 +41,26 @@
   "url": "https://thistlemagicacademy-gmg.com/",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+       "packFolders": [
+    {
+      "name": "Thistle Academy GM Pack",
+      "sorting": "m",
+      "color": "#2f1a67",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+	        "packs": [
+        "thistle-academy-gm-pack",
+		"thistle-actors",
+		"thistle-deities",
+        "thistle-equipment",
+		"thistle-equipment-effects",
+        "thistle-misc",
+        "thistle-scenes"
+      ]
+	}
+	],
   "packs": [
     {
       "name": "thistle-academy-gm-pack",
@@ -49,7 +69,29 @@
       "type": "Adventure",
       "system": "pf2e",
       "ownership": {
-        "PLAYER": "NONE",
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "thistle-actors",
+      "label": "Thistle Actors",
+      "path": "packs/thistle-actors",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+	    {
+      "name": "thistle-deities",
+      "label": "Thistle Deities",
+      "path": "packs/thistle-deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
@@ -76,9 +118,9 @@
       }
     },
     {
-      "name": "thistle-other-items-and-effects",
-      "label": "Thistle Other Items & Effects",
-      "path": "packs/thistle-other-items-and-effects",
+      "name": "thistle-misc",
+      "label": "Thistle Misc",
+      "path": "packs/thistle-misc",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
@@ -87,26 +129,15 @@
       }
     },
     {
-      "name": "thistle-actors",
-      "label": "Thistle Actors",
-      "path": "packs/thistle-actors",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
-    },
-    {
       "name": "thistle-scenes",
       "label": "Thistle Scenes",
       "path": "packs/thistle-scenes",
       "type": "Scene",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ]
 }
