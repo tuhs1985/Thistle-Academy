@@ -1,24 +1,8 @@
-2025/01/05-16:54:59.936 1f58 Recovering log #227
-2025/01/05-16:54:59.938 1f58 Level-0 table #229: started
-2025/01/05-16:54:59.945 1f58 Level-0 table #229: 162779 bytes OK
-2025/01/05-16:54:59.948 1f58 Delete type=0 #227
-2025/01/05-16:54:59.948 1f58 Delete type=3 #226
-2025/01/05-16:59:53.289 2604 Level-0 table #232: started
-2025/01/05-16:59:53.298 2604 Level-0 table #232: 162778 bytes OK
-2025/01/05-16:59:53.299 2604 Delete type=0 #230
-2025/01/05-16:59:53.299 2604 Manual compaction at level-0 from '!adventures!3K86UG2sfeVxCP1z' @ 72057594037927935 : 1 .. '!adventures!tQXWvAihGxuQabCt' @ 0 : 0; will stop at '!adventures!3K86UG2sfeVxCP1z' @ 36 : 1
-2025/01/05-16:59:53.299 2604 Compacting 2@0 + 0@1 files
-2025/01/05-16:59:53.308 2604 Generated table #233@0: 1 keys, 162778 bytes
-2025/01/05-16:59:53.308 2604 Compacted 2@0 + 0@1 files => 162778 bytes
-2025/01/05-16:59:53.309 2604 compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/01/05-16:59:53.309 2604 Delete type=2 #229
-2025/01/05-16:59:53.310 2604 Delete type=2 #232
-2025/01/05-16:59:53.310 2604 Manual compaction at level-0 from '!adventures!3K86UG2sfeVxCP1z' @ 36 : 1 .. '!adventures!tQXWvAihGxuQabCt' @ 0 : 0; will stop at (end)
-2025/01/05-16:59:53.310 2604 Manual compaction at level-1 from '!adventures!3K86UG2sfeVxCP1z' @ 72057594037927935 : 1 .. '!adventures!tQXWvAihGxuQabCt' @ 0 : 0; will stop at '!adventures!3K86UG2sfeVxCP1z' @ 37 : 1
-2025/01/05-16:59:53.310 2604 Compacting 1@1 + 1@2 files
-2025/01/05-16:59:53.318 2604 Generated table #234@1: 2 keys, 176080 bytes
-2025/01/05-16:59:53.318 2604 Compacted 1@1 + 1@2 files => 176080 bytes
-2025/01/05-16:59:53.320 2604 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/01/05-16:59:53.320 2604 Delete type=2 #225
-2025/01/05-16:59:53.320 2604 Delete type=2 #233
-2025/01/05-16:59:53.320 2604 Manual compaction at level-1 from '!adventures!3K86UG2sfeVxCP1z' @ 37 : 1 .. '!adventures!tQXWvAihGxuQabCt' @ 0 : 0; will stop at (end)
+2025/01/05-17:05:43.985 6c44 Recovering log #241
+2025/01/05-17:05:43.988 6c44 Delete type=0 #241
+2025/01/05-17:05:43.988 6c44 Delete type=3 #239
+2025/01/05-17:08:02.843 c50 Level-0 table #247: started
+2025/01/05-17:08:02.843 c50 Level-0 table #247: 0 bytes OK
+2025/01/05-17:08:02.844 c50 Delete type=0 #245
+2025/01/05-17:08:02.844 c50 Manual compaction at level-0 from '!adventures!3K86UG2sfeVxCP1z' @ 72057594037927935 : 1 .. '!adventures!tQXWvAihGxuQabCt' @ 0 : 0; will stop at (end)
+2025/01/05-17:08:02.844 c50 Manual compaction at level-1 from '!adventures!3K86UG2sfeVxCP1z' @ 72057594037927935 : 1 .. '!adventures!tQXWvAihGxuQabCt' @ 0 : 0; will stop at (end)
